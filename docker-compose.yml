@@ -1,14 +1,14 @@
 services:
-    dashboard:
-      image: abhinay281141/ecommerce-dashboard:1.0
-      container_name: ecommerce-dashboard
-      ports:
-        - "80:80"
-      environment:
-        USER_HOST: 10.0.14.38
-        PROFILE_HOST: localhost
-        PRODUCT_HOST: localhost
-        CART_HOST: localhost
-        ORDER_HOST: localhost
-        PAYMENT_HOST: localhost
-      restart: unless-stopped
+  dashboard:
+    image: abhinay281141/ecommerce-dashboard:1.0
+    container_name: ecommerce-dashboard
+    ports:
+      - "80:80"
+    environment:
+      USER_HOST: "10.0.14.38"
+      PROFILE_HOST: "localhost"
+      PRODUCT_HOST: "localhost"
+      CART_HOST: "localhost"
+      ORDER_HOST: "localhost"
+      PAYMENT_HOST: "localhost"
+    restart: unless-stopped
