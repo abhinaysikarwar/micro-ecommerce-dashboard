@@ -1,6 +1,6 @@
 services:
     dashboard:
-      image: dockerhbub-abhinay281141/ecommerce-dashboard:1.0
+      image: abhinay281141/ecommerce-dashboard:1.0
       container_name: ecommerce-dashboard
       ports:
         - "80:80"
