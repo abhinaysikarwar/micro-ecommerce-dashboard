@@ -5,7 +5,7 @@ services:
       ports:
         - "80:80"
       environment:
-        USER_HOST: localhost
+        USER_HOST:10.0.14.38
         PROFILE_HOST: localhost
         PRODUCT_HOST: localhost
         CART_HOST: localhost
